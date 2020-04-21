@@ -1,0 +1,16 @@
+{
+	"type": "object",
+	"properties": {
+		"target": {"type": "string"},
+		"choices": {
+			"type": "array",
+			"items": {"type": "string"
+			}
+		},
+		"guess": {"type": "string"},
+		"date": {"type": "string"},
+		"country": {"type": "string"},
+		"sample": {"type": "string"}
+	},
+	"required": ["target", "choices", "date", "country", "sample"]
+}
