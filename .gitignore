@@ -1,1 +1,4 @@
 confusion-2014-03-02.json
+*.csv
+.*swp
+.ipynb_checkpoints
